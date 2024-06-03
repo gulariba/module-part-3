@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var module_js_1 = require("./module.js");
+var result1 = (0, module_js_1.add)(5, 1);
+var result2 = (0, module_js_1.subtract)(10, result1);
+console.log("addition:", result1);
+console.log("subtraction:", result2);
+var module_js_2 = require("./module.js");
+var result3 = (0, module_js_2.emplyee)(10, 20);
+var result4 = (0, module_js_2.salary)(10000, 4000);
+console.log("division:", result3);
+console.log("division:", result4);
